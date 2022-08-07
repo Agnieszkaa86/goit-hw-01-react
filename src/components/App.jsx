@@ -4,8 +4,8 @@ import Profile from './Profile';
 import user from './data/user.json';
 import Statistics from './Statistics';
 import data from './data/data.json';
-import TransactionHistory from './TransactionHistory';
-import transactions from './data/transactions';
+//import TransactionHistory from './TransactionHistory';
+//nimport transactions from './data/transactions';
 
 export const App = () => {
   return (
@@ -19,7 +19,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      <TransactionHistory items={transactions} />;
+      ;
     </div>
   );
 };
